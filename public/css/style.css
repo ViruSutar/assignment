@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:slategrey;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 5px;
+  }
+
+td{
+    color: floralwhite;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+th{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+    margin-left: auto;    
+    margin-right: auto;
+
+}
+
+
+table{
+    margin: 0px auto;
+    table-layout: fixed ;
+    width: 70% ;
+}

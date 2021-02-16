@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel='stylesheet' href="/css/style.css">
+</head>
+<body>
+<h2>HODLINFO<span>.com</span></div></span></h2>
+<div class="container">
+    <table>
+        <tr>
+       <th>Display name</th>
+       <th>last</th>
+       <th>buy</th>
+       <th>Sell</th>
+       <th>volume</th>
+       <th>base_unit</th>
+       </tr>
+    </table>
+   {{#each newarr as |t|}}
+   <table>
+       <tr>
+           <td>{{t.name}}</td>
+           <td>{{t.last}}</td>
+           <td>{{t.buy}}</td>
+           <td>{{t.sell}}</td>
+           <td>{{t.volume}}</td>
+           <td>{{t.base_unit}}</td>           
+       </tr>
+   </table>
+   {{/each}}
+</div>
+    
+</body>
+</html>
